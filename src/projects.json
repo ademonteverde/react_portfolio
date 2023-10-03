@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Whispr",
+      "bio": "React, GraphQL, Node.js, Express.js, MongoDB, etc.",
+      "imgPath": "whispr_app.png",
+      "URL": "https://github.com/Jrr1232/Whispr",
+      "alt": "Whispr",
+      "github": "https://github.com/Jrr1232/Whispr"
+    },
+    {
+      "title": "Shouter",
+      "bio": "Node.js, Express.js, Handlebars.js, MySQL, etc.",
+      "imgPath": "shouter_app.png",
+      "URL": "https://shouterapp-a720f8ccbc1f.herokuapp.com/",
+      "alt": "Shouter",
+      "github": "https://github.com/Jrr1232/ShoutrApp"
+    },
+    {
+      "title": "OhMyStars!",
+      "bio": "HTML/CSS, JavaScript, server-side APIs",
+      "imgPath": "ohmystars_app.png",
+      "URL": "https://tanovese.github.io/ohMyStars/",
+      "alt": "OhMyStars",
+      "github": "https://github.com/tanovese/ohMyStars"
+    },
+    {
+      "title": "Weather Dashboard",
+      "bio": "OpenWeatherMap API, JavaScript, HTML/CSS",
+      "imgPath": "weather_app.png",
+      "URL": "https://ademonteverde.github.io/weather_dashboard/",
+      "alt": "Weather Dashboard",
+      "github": "https://github.com/ademonteverde/weather_dashboard"
+    },
+    {
+      "title": "Work Day Scheduler",
+      "bio": "Day.js, HTML/CSS, JavaScript, Event Handling",
+      "imgPath": "workscheduler_app.png",
+      "URL": "https://ademonteverde.github.io/work_day_scheduler/",
+      "alt": "Work Day Scheduler",
+      "github": "https://github.com/ademonteverde/work_day_scheduler"
+    },
+    {
+      "title": "Note Taker",
+      "bio": "Express.js, Node.js, JavaScript, HTML/CSS",
+      "imgPath": "notetaker_app.png",
+      "URL": "https://boiling-castle-91538-a769d3f751b6.herokuapp.com/",
+      "alt": "Note Taker",
+      "github": "https://github.com/ademonteverde/note_taker"
+    }
+  ]
+  

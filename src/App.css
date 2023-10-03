@@ -1,0 +1,104 @@
+#root {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-pic {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.profile_container {
+  width: 30%;
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.aboutme_container {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.portfolio-title {
+  padding-bottom: 30px;
+}
+
+.portfolio,
+.resume,
+.home-container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.overlay-text {
+  padding: 5px;
+}
+
+.desc {
+  display: inline;
+  color: #000;
+  text-decoration: none;
+  text-align: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.desc:active {
+  color: #000;
+}
+
+.resume-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.skills-list {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.skills-section {
+  padding-top: 30px;
+}
+
+.resume-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1020px) {
+  .title {
+    margin-top: 0;
+  }
+  .home-container {
+    padding: 40px 0;
+  }
+  .profile_container {
+    display: block;
+    width: 100%;
+  }
+  #profile-pic {
+    width: 50%;
+    padding: 0;
+  }
+  .aboutme_container {
+    width: 100%;
+    padding: 0 50px;
+  }
+}

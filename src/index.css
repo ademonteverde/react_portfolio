@@ -1,0 +1,123 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#root {
+    background-color: #dae9f0;
+}
+
+.links {
+    font-size: 18px;
+    text-align: right;
+    list-style-type: none;
+    margin-right: 80px;
+    color: white;
+}
+
+.links li {
+    margin-right: 20px;
+    display: inline;
+}
+
+.title {
+    font-size: 55px;
+    margin-left: 50px;
+    color: white;
+}
+
+.links {
+    text-align: right;
+    list-style-type: none;
+    margin-right: 40px;
+    color: white;
+}
+
+.links li {
+    margin-right: 20px;
+    display: inline;
+    text-decoration: none;
+}
+
+.links li a {
+    font-size: 20px;
+    text-align: right;
+    list-style-type: none;
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.links li a:active {
+    color: white;
+}
+
+#navbar {
+    padding: 0px;
+    height: 350px;
+    width: 100%;
+    background-image: url('/public/header_bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 100;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.footer ul li {
+    text-align: center;
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-logo {
+    height: 20px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1020px) {
+    .title {
+        padding-top: 20px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .links {
+        text-align: center;
+        margin-right: 30px;
+        display: block;
+        padding: 20px 0;
+    }
+
+    .links li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .links li a {
+        display: block;
+        margin-right: 0;
+    }
+
+    #navbar {
+        display: block;
+        text-align: center;
+        margin-right: auto;
+        padding: 0px;
+        height: 350px;
+        width: 100%;
+        background-image: url('/public/header_bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        z-index: 100;
+        margin-bottom: 20px;
+    }
+}
