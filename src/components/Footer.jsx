@@ -41,6 +41,15 @@ function Footer() {
               <img src="/instagram_logo.png" alt="Instagram" className="footer-logo" />
             </a>
           </li>
+          <li className="footer-item">
+            <a
+              href="https://bsky.app/profile/andrecarlo.bsky.social"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img src="/bsky_logo.png" alt="Bsky" className="footer-logo" />
+            </a>
+          </li>
         </ul>
       </div>
     </footer>

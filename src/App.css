@@ -5,9 +5,9 @@
 }
 
 #profile-pic {
-  border: 1px solid black;
-  border-radius: 20px;
-  width: 90%;
+  border: 5px solid white;
+  /* border-radius: 20px; */
+  width:80%;
   display: block;
   margin: 0 auto;
 }
@@ -24,13 +24,13 @@
 }
 
 .profile_container {
-  width: 30%;
+  width: 45%;
   display: inline-flex;
   vertical-align: top;
 }
 
 .aboutme_container {
-  width: 60%;
+  width: 55%;
   display: inline-block;
   vertical-align: top;
 }

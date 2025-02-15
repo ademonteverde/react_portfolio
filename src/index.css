@@ -6,53 +6,8 @@ body {
     background-color: #dae9f0;
 }
 
-.links {
-    font-size: 18px;
-    text-align: right;
-    list-style-type: none;
-    margin-right: 80px;
-    color: white;
-}
-
-.links li {
-    margin-right: 20px;
-    display: inline;
-}
-
-.title {
-    font-size: 55px;
-    margin-left: 50px;
-    color: white;
-}
-
-.links {
-    text-align: right;
-    list-style-type: none;
-    margin-right: 40px;
-    color: white;
-}
-
-.links li {
-    margin-right: 20px;
-    display: inline;
-    text-decoration: none;
-}
-
-.links li a {
-    font-size: 20px;
-    text-align: right;
-    list-style-type: none;
-    margin-right: 30px;
-    color: white;
-    text-decoration: none;
-}
-
-.links li a:active {
-    color: white;
-}
-
 #navbar {
-    padding: 0px;
+    padding: 0;
     height: 350px;
     width: 100%;
     background-image: url('/public/header_bg.jpg');
@@ -77,6 +32,82 @@ body {
 .footer-logo {
     height: 20px;
     margin-right: 10px;
+}
+
+.links {
+    font-size: 18px;
+    text-align: right;
+    list-style-type: none;
+    margin-right: 40px;
+    color: white;
+}
+
+.links li {
+    margin-right: 20px;
+    display: inline;
+}
+
+.links li a {
+    font-size: 20px;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+}
+
+.links li a:active {
+    color: white;
+}
+
+.title {
+    font-size: 55px;
+    margin-left: 50px;
+    color: white;
+}
+
+.resume {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.resume-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.resume-link {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.resume-link a {
+    text-decoration: none;
+    color: #1976d2;
+}
+
+.skills-section {
+    margin-bottom: 40px;
+}
+
+.skills-heading {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.skills-list li {
+    font-size: 1.2rem;
+    margin: 8px 0;
 }
 
 @media (max-width: 1020px) {
@@ -109,7 +140,7 @@ body {
         display: block;
         text-align: center;
         margin-right: auto;
-        padding: 0px;
+        padding: 0;
         height: 350px;
         width: 100%;
         background-image: url('/public/header_bg.jpg');
@@ -119,5 +150,21 @@ body {
         background-position: center center;
         z-index: 100;
         margin-bottom: 20px;
+    }
+
+    .resume {
+        width: 90%;
+    }
+
+    .resume-title {
+        font-size: 2rem;
+    }
+
+    .skills-heading {
+        font-size: 1.5rem;
+    }
+
+    .skills-list li {
+        font-size: 1rem;
     }
 }

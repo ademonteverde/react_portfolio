@@ -11,7 +11,7 @@
       "title": "Shouter",
       "bio": "Node.js, Express.js, Handlebars.js, MySQL, etc.",
       "imgPath": "shouter_app.png",
-      "URL": "https://shouterapp-a720f8ccbc1f.herokuapp.com/",
+      "URL": "https://github.com/Jrr1232/ShoutrApp",
       "alt": "Shouter",
       "github": "https://github.com/Jrr1232/ShoutrApp"
     },
@@ -43,7 +43,7 @@
       "title": "Note Taker",
       "bio": "Express.js, Node.js, JavaScript, HTML/CSS",
       "imgPath": "notetaker_app.png",
-      "URL": "https://boiling-castle-91538-a769d3f751b6.herokuapp.com/",
+      "URL": "https://github.com/ademonteverde/note_taker",
       "alt": "Note Taker",
       "github": "https://github.com/ademonteverde/note_taker"
     }

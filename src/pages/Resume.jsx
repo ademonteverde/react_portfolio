@@ -12,58 +12,76 @@ function Resume() {
       <Typography align="center" className="resume-link">
         Click here to view my{' '}
         <a
-          href="https://drive.google.com/file/d/1GzYcOvamQCcld4czXj_U3ux2IF5ZUTQz/view?usp=sharing"
+          href="https://drive.google.com/file/d/1E42zGS30IDOevmxAgrbXbHTOs3kBPSwA/view?usp=sharing"
           className="resume-link"
           target="_blank"
           rel="noopener noreferrer"
         >
-          resume
+          <u>resume</u>
         </a>
       </Typography>
 
       <div className="skills-section">
         <Typography variant="h4" align="center" className="skills-heading">
-          Front-End Proficiencies
+          <u>Front-End Proficiencies</u>
         </Typography>
         <ul className="skills-list">
-          <li>HTML (HyperText Markup Language)</li>
-          <li>CSS (Cascading Style Sheets)</li>
-          <li>JavaScript</li>
+          <li>HTML5</li>
+          <li>CSS3 (SASS, CSS Grid, Flexbox)</li>
+          <li>JavaScript (ES6+)</li>
           <li>jQuery</li>
+          <li>React.js</li>
+          <li>Redux (State Management)</li>
           <li>Bootstrap</li>
+          <li>Responsive Web Design</li>
           <li>Progressive Web Applications (PWAs)</li>
-          <li>React</li>
         </ul>
       </div>
 
       <div className="skills-section">
         <Typography variant="h4" align="center" className="skills-heading">
-          Back-End Proficiencies
+          <u>Back-End Proficiencies</u>
         </Typography>
         <ul className="skills-list">
           <li>Node.js</li>
           <li>Express.js</li>
-          <li>Server-Side APIs</li>
-          <li>SQL (Structured Query Language)</li>
-          <li>Object-Relational Mapping (ORM)</li>
-          <li>NoSQL Databases</li>
-          <li>Mongoose</li>
-          <li>Sequelize</li>
+          <li>APIs (REST, GraphQL)</li>
+          <li>SQL (MySQL, PostgreSQL)</li>
+          <li>NoSQL (MongoDB)</li>
+          <li>Object-Relational Mapping (ORM) with Sequelize</li>
+          <li>Mongoose (MongoDB)</li>
+          <li>JWT Authentication</li>
+          <li>Serverless Architecture (AWS Lambda)</li>
         </ul>
       </div>
 
       <div className="skills-section">
         <Typography variant="h4" align="center" className="skills-heading">
-          General and Additional Proficiencies
+          <u>DevOps & Cloud Technologies</u>
         </Typography>
         <ul className="skills-list">
-          <li>Git</li>
-          <li>GraphQL</li>
+          <li>AWS (EC2, S3, Lambda, RDS)</li>
+          <li>Docker</li>
+          <li>CI/CD Pipelines (GitHub Actions, Jenkins)</li>
+          <li>Git & GitHub</li>
+          <li>Firebase</li>
+          <li>Heroku</li>
+        </ul>
+      </div>
+
+      <div className="skills-section">
+        <Typography variant="h4" align="center" className="skills-heading">
+          <u>General and Additional Proficiencies</u>
+        </Typography>
+        <ul className="skills-list">
+          <li>Agile & Scrum Methodologies</li>
+          <li>Test-Driven Development (TDD)</li>
+          <li>Unit Testing (Jest, Mocha)</li>
+          <li>Version Control (Git, GitHub)</li>
+          <li>Web Security (OWASP Top 10)</li>
           <li>Object-Oriented Programming (OOP)</li>
-          <li>State Management</li>
           <li>Model-View-Controller (MVC)</li>
-          <li>Third-Party APIs</li>
-          <li>REST (Representational State Transfer)</li>
+          <li>Third-Party APIs Integration</li>
         </ul>
       </div>
     </div>
